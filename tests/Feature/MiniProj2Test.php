@@ -18,9 +18,16 @@ class MiniProj2Test extends TestCase
         $response = $this->get('/register');
         $response->assertStatus(200);
     }
+
     public function testLoginPage()
     {
         $response = $this->get('/login');
+        $response->assertStatus(200);
+    }
+
+    public function testAboutPage()
+    {
+        $response = $this->get('/about');
         $response->assertStatus(200);
     }
 }
