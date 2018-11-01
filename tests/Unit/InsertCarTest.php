@@ -14,7 +14,7 @@ class InsertCarTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testInsertCar()
     {
         $car= new Car();
         $car->Year= '2000';

@@ -18,6 +18,6 @@ class CountTest extends TestCase
     {
         $user = User::all();
         $recordCount = $user->count();
-        $this->assertLessThanOrEqual(50, $recordCount);
+        $this->assertLessThanOrEqual(60, $recordCount);
     }
 }
