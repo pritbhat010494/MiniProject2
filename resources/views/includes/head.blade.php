@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Contact Form">
+<meta name="description" content="MiniProject2">
 <meta name="author" content="pritam">
 
 <title>MiniProject2</title>
