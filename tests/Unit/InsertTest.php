@@ -22,7 +22,5 @@ class InsertTest extends TestCase
         $user->password = "abcd";
         $this->assertTrue($user->save());
         $this->assertTrue(true);
-
-
     }
 }
